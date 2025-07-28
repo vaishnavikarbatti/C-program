@@ -1,0 +1,12 @@
+#include<iostream>
+
+using namespace std;
+
+int main(){
+    int p=10,r=30,t=90; 
+    int si = p*r*t/100;
+    cout<<"value of simple interest:"<<si;
+}
+
+output:-
+value of simple interest:270
