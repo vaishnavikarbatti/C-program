@@ -1,0 +1,35 @@
+/*#include<iostream>
+using namespace std;
+int main()
+{
+    int a,b,sum;
+    cout<<"Enter value of a :"<<endl;
+    cin>>a;
+    cout<<"Enter a value of b :"<<endl;
+    cin>>b;
+
+    cout<<"Now value of a and b are " <<a <<" and " <<b <<endl;
+    cout<<"Addition of Two values :"<<a+b<<endl;
+
+} */
+
+#include<iostream>
+using namespace std;
+
+int main()
+{
+    int a,b,mul;
+    cout<<"Enter value of a :";
+    cin>>a;
+    cout<<"Enter value of b :";
+    cin>>b;
+    mul=a*b;
+    cout<<"Mulitiplication of a and b :"<<mul<<endl;
+
+
+}
+
+output:-
+Enter value of a :7
+Enter value of b :9
+Mulitiplication of a and b :63
