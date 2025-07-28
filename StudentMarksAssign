@@ -1,0 +1,28 @@
+#include<iostream>
+using namespace std;
+
+int main()
+{
+    int marks;
+    cout<<"Enter an marks:";
+    cin>>marks;
+
+    if(marks >=90 && marks <=100)
+    {
+        cout<<"A-grade";
+    }
+    else if (marks >=70 && marks <=90)
+    {
+        cout<<"B-grade";
+    }
+    else if (marks >=50 && marks <=3)
+    {
+        cout<<"C-grade";
+    }
+    else{
+        cout<<"Fail";
+    }
+}
+
+Enter an marks:78
+B-grade
