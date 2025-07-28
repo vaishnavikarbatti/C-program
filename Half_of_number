@@ -1,0 +1,19 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    int a;
+    cout << "Enter a value of a: ";
+    cin >> a;
+    float f = (float)a;
+    cout << endl;  
+    cout << "Integer a: " << a << endl;
+    cout << "Half of a as float: " << f / 2 << endl;
+
+    return 0;
+}
+output:-
+Enter a value of a: 5
+
+Integer a: 5
+Half of a as float: 2.5
