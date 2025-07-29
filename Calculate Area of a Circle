@@ -1,0 +1,17 @@
+#include<iostream>
+using namespace std;
+
+int main()
+{
+    float area, radius;  
+    cout << "Enter a value of radius: ";
+    cin >> radius;
+    area = 3.14 * radius * radius;
+    cout << "Area of a circle: " << area << endl;
+    return 0;
+}
+
+output:-
+
+Enter a value of radius: 5
+Area of a circle: 78.5
