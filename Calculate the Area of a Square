@@ -1,0 +1,19 @@
+#include<iostream>
+using namespace std;
+
+int main()
+{
+    int area, side;
+    cout << "Enter a value for side: ";
+    cin >> side;
+
+    area = side * side;
+    cout << "Area of Square: " << area << endl;
+
+    return 0;
+}
+
+output:-
+
+Enter a value for side: 5
+Area of Square: 25
