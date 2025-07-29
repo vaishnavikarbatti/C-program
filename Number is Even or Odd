@@ -1,0 +1,23 @@
+#include<iostream>
+using namespace std;
+
+int main()
+{
+    int a;
+    cout << "Enter a value: ";
+    cin >> a;
+
+    if(a % 2 == 0)
+    {
+        cout << "Entered value is even" << endl;
+    }  
+    else
+    {
+        cout << "Entered value is odd" << endl;
+    }
+    return 0;
+}
+
+output:-
+Enter a value: 8
+Entered value is even
