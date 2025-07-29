@@ -1,0 +1,29 @@
+#include<iostream>
+using namespace std;
+
+int main()
+{
+    int x;
+    cout << "Enter a value of x: ";
+    cin >> x;
+
+    if(x > 0)
+    {
+        cout << "Entered number is positive" << endl;
+    }
+    else if(x < 0)
+    {
+        cout << "Entered number is negative" << endl;
+    }
+    else
+    {
+        cout << "Entered number is zero" << endl;
+    }
+
+    return 0;
+}
+
+output :-
+
+Enter a value of x: 10
+Entered number is positive
