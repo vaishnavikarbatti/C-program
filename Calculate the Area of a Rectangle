@@ -1,0 +1,22 @@
+#include<iostream>
+using namespace std;
+
+int main()
+{
+    int area, breadth, width;   // Correct spelling of variables
+    cout << "Enter breadth: ";
+    cin >> breadth;
+    cout << "Enter width: ";
+    cin >> width;
+
+    area = breadth * width;
+    cout << "Area of rectangle: " << area << endl;
+
+    return 0;
+}
+output:-
+
+Enter breadth: 5
+Enter width: 10
+Area of rectangle: 50
+
