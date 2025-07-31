@@ -1,0 +1,19 @@
+#include <iostream>
+using namespace std;
+
+void circle(int radius)
+{
+    float area;
+    area = 3.14 * radius * radius;
+    cout << "Area of circle is: " << area << endl;
+}
+
+int main()
+{
+    circle(4);
+    return 0;
+}
+
+
+output:-Area of circle is: 50.24
+
