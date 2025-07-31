@@ -1,0 +1,28 @@
+#include<iostream>
+using namespace std;
+
+void even_odd()
+{
+    int num;
+    cout << "Enter a value: ";
+    cin >> num;
+
+    if (num % 2 == 0)
+    {
+        cout << "even";
+    }
+    else
+    {
+        cout << "odd";
+    }
+}
+
+int main()
+{
+    even_odd();
+}
+
+
+output:-Enter a value: 12
+even
+
