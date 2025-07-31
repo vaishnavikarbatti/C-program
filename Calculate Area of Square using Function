@@ -1,0 +1,18 @@
+#include<iostream>
+using namespace std;
+
+void square(int side)
+{
+    int area;
+    area = side * side;
+    cout << "Area of square : " << area;
+}
+
+int main()
+{
+    square(5);
+    return 0;
+}
+
+output:-
+Area of square : 25
