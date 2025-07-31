@@ -1,0 +1,22 @@
+#include<iostream>
+using namespace std;
+
+void swap(int a, int b)
+{
+    int temp;
+    temp = a;
+    a = b;
+    b = temp;
+
+    cout << "After swapping a value " << a << endl;
+    cout << "After swapping b value " << b;
+}
+
+int main()
+{
+    swap(90, 890);
+}
+
+output:-
+After swapping a value 890
+After swapping b value 90
